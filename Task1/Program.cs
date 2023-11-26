@@ -11,6 +11,7 @@
             int I = Int32.Parse(Console.ReadLine());
             double s = pi * r * (r + I);
             Console.WriteLine($"Площадь круга равна {s}");
+            Console.ReadKey();
         }
     }
 }
